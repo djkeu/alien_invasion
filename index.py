@@ -18,9 +18,7 @@ Refactoring: _check_events() and _update_screen(), p.236
     The _check_events() methogd, p.236
     The _update_screen() method, p.237
 Try it yourself, p.238
-    raiders.py
-    12.1 Blue sky, p.238
-    12.2 Game character, p.238
+        --- Moved to 'raiders_python: raiders.py' ---
 Piloting the ship, p.238
     Responding to a keypress, p.238
     
