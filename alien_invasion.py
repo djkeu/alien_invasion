@@ -1,5 +1,5 @@
 # Project 1: Alien Invasion, p.225
-print("\nProject 1: Alien Invasion")
+print("\n\tProject 1: Alien Invasion\n")
 
 import sys
 import pygame
