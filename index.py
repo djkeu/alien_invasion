@@ -21,5 +21,7 @@ Try it yourself, p.238
         --- Moved to 'raiders_python: raiders.py' ---
 Piloting the ship, p.238
     Responding to a keypress, p.238
+    Allowing continuous movement
+    Moving both left and right
     
 """
