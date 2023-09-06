@@ -26,5 +26,6 @@ Piloting the ship, p.238
     Adjusting the ship's speed, p.241
     Limiting the ship's range, p.243
     Refactoring _check_events(), p.243
-        
+    Running the game in fullscreen mode, p.244
+    
 """
