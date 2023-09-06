@@ -23,5 +23,6 @@ Piloting the ship, p.238
     Responding to a keypress, p.238
     Allowing continuous movement
     Moving both left and right
-    
+    Adjusting the ship's speed, p.241
+        
 """
