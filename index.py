@@ -25,5 +25,6 @@ Piloting the ship, p.238
     Moving both left and right
     Adjusting the ship's speed, p.241
     Limiting the ship's range, p.243
+    Refactoring _check_events(), p.243
         
 """
