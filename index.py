@@ -27,5 +27,16 @@ Piloting the ship, p.238
     Limiting the ship's range, p.243
     Refactoring _check_events(), p.243
     Running the game in fullscreen mode, p.244
+A quick recap, p.245
+    alien_invasion.py
+    settings.py
+    ship.py
+
+Try it yourself, p.246
+    12.4 rocket.py
+    12.5 keys.py
+
+Shooting bullets, p.246
+    Adding the bullet settings
     
 """
