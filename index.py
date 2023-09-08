@@ -40,5 +40,5 @@ Shooting bullets, p.246
     Adding the bullet settings
     Storing bullets in a group
     Firing bullets
-    
+    Deleting old bullets
 """
