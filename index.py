@@ -37,10 +37,10 @@ Try it yourself, p.246
     12.5 keys.py
 
 Shooting bullets, p.246
-    Adding the bullet settings
-    Storing bullets in a group
-    Firing bullets
-    Deleting old bullets
-    Limiting the number of bullets
+    Adding the bullet settings, p.247
+    Storing bullets in a group, p.248
+    Firing bullets, p.249
+    Deleting old bullets, p.250
+    Limiting the number of bullets, p.251
     
 """
