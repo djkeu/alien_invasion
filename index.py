@@ -42,5 +42,6 @@ Shooting bullets, p.246
     Firing bullets, p.249
     Deleting old bullets, p.250
     Limiting the number of bullets, p.251
+    Creating the _update_bullets method, p.252
     
 """
