@@ -41,4 +41,6 @@ Shooting bullets, p.246
     Storing bullets in a group
     Firing bullets
     Deleting old bullets
+    Limiting the number of bullets
+    
 """
