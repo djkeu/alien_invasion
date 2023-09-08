@@ -38,5 +38,6 @@ Try it yourself, p.246
 
 Shooting bullets, p.246
     Adding the bullet settings
+    Storing bullets in a group
     
 """
