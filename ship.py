@@ -10,7 +10,7 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
 
         """Load the ship image and get its rect."""
-        self.image = pygame.image.load(self.settings.image)
+        self.image = pygame.image.load(self.settings.ship_image)
         self.rect = self.image.get_rect()
     
         """Start each ship at bottom center of screen."""
