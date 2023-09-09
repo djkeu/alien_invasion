@@ -48,3 +48,9 @@ Try it yourself, p.253
     12.6 Sideways shooter
         sideways_shooter.py
 """
+
+# Chapter 13 Aliens, p.255
+"""
+Reviewing the project, p.256
+
+"""
