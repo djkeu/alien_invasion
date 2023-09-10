@@ -43,8 +43,9 @@ Shooting bullets, p.246
     Deleting old bullets, p.250
     Limiting the number of bullets, p.251
     Creating the _update_bullets method, p.252
-
-Try it yourself, p.253
+"""
+#Try it yourself, p.253
+"""
     12.6 Sideways shooter
         sideways_shooter.py
 """
@@ -59,4 +60,10 @@ Reviewing the project, p.256
         Creating a row of aliens
         Refactoring _create_fleet()
         Addiing rows
+"""
+
+# Try it yourself, p.264
+"""
+    13.1 Stars
+    
 """
