@@ -1,5 +1,5 @@
 import pygame
-from pygame.sprite import _Group, Sprite
+from pygame.sprite import Sprite
 
 
 class Alien(Sprite):
@@ -21,4 +21,3 @@ class Alien(Sprite):
 
         # Store the alien's exact horizontal position
         self.x = float(self.rect.x)
-        
