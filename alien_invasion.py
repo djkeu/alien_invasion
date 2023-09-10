@@ -97,7 +97,6 @@ class AlienInvasion:
         alien = Alien(self)  # Needed to calculate width, height
         alien_width, alien_height = alien.rect.size
         available_space_x = self.settings.screen_width - (2 * alien_width)
-        # Space between aliens, equal to one alien width
         number_aliens_x = available_space_x // ( 2 * alien_width)
 
         # Determine the number of rows
@@ -112,12 +111,12 @@ class AlienInvasion:
                 self._create_alien(alien_number, row_number)
 
     def _create_alien(self, alien_number, row_number):
-        """Create alien an place it in a row."""
+        """Create alien and place it in a row."""
         alien = Alien(self)
         alien_width, alien_height = alien.rect.size
         alien.x = alien_width + 2 * alien_width * alien_number
         alien.rect.x = alien.x
-        alien.rect.y = alien.rect.height + 2 * alien.rect.height * row_number
+        alien.rect.y = alien_height + 2 * alien_height * row_number
         self.aliens.add(alien)
 
     def _update_screen(self):
