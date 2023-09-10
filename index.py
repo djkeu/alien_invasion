@@ -52,5 +52,7 @@ Try it yourself, p.253
 # Chapter 13 Aliens, p.255
 """
 Reviewing the project, p.256
-
+    Creating the alien class, p.257
+    Creating an instance of the alien, p.258
+    
 """
