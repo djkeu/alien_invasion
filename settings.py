@@ -20,4 +20,4 @@ class Settings:
         self.bullets_allowed = 3
 
         # Alien settings
-        self.alien.image = 'images/alien.png'
+        self.alien_image = 'images/alien.png'
