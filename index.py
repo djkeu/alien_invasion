@@ -55,5 +55,6 @@ Reviewing the project, p.256
     Creating the alien class, p.257
     Creating an instance of the alien, p.258
     Building the alien fleet, p.259
-    
+        Determining how many aliens fit in a row
+        
 """
