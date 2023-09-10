@@ -100,6 +100,10 @@ class AlienInvasion:
         # Space between aliens, equal to one alien width
         number_aliens_x = available_space_x // ( 2 * alien_width)
 
+        # Determine the number of rows
+        ship_height = self.ship.rect.height
+        available_space_y = (self.settings.screen_height - (3 * alien_height) - ship_height)
+        number_rows = available_space_y // (2 * alien_height)
         
         # Create first row of aliens
         for alien_number in range(number_aliens_x):
