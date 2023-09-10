@@ -94,7 +94,7 @@ class AlienInvasion:
     def _create_fleet(self):
         """Create the fleet of aliens."""
         # Make an alien, find number of aliens in a row
-        alien = Alien(self)
+        alien = Alien(self)  # Needed to calculate width, height
         alien_width = alien.rect.width
         available_space_x = self.settings.screen_width - (2 * alien_width)
         # Space between aliens, equal to one alien width
