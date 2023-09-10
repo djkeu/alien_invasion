@@ -58,4 +58,5 @@ Reviewing the project, p.256
         Determining how many aliens fit in a row
         Creating a row of aliens
         Refactoring _create_fleet()
+        Addiing rows
 """
