@@ -6,10 +6,10 @@ class Settings:
         # Screen settings
         self.screen_width = 960
         self.screen_height = 640
-        self.bg_color = (230, 230, 230)
+        self.bg_color = (230, 230, 130)
 
         # Ship settings
-        self.ship_image = 'images/ship.bmp'
+        self.ship_image = 'images/ship.png'
         self.ship_speed = 1.5
 
         # Bullet settings
