@@ -6,7 +6,7 @@ class Settings:
         # Screen settings
         self.screen_width = 960
         self.screen_height = 640
-        self.bg_color = (230, 230, 130)
+        self.bg_color = (10, 10, 30)
 
         # Ship settings
         self.ship_image = 'images/ship.png'
