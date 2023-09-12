@@ -67,5 +67,14 @@ Reviewing the project, p.256
 
 Making the fleet move, p.265
      Moving the aliens right, p.265
+     Creating setting for fleet direction, p.266
+     Checking wether an alien had hit the edge, p.266
+     Dropping the fleet and changing direction, p.267
+
+# Try it yourself, p.268
+    13.3 Raindrops
+    
+
+
 """
 
