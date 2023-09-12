@@ -87,7 +87,6 @@ class AlienInvasion:
         """Update position of bullets and get rid of old bullets."""
         self.bullets.update()
 
-        # Get rid of old bullets
         for bullet in self.bullets.copy():
             if bullet.rect.bottom <= 0:
                 self.bullets.remove(bullet)
