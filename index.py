@@ -60,10 +60,12 @@ Reviewing the project, p.256
         Creating a row of aliens
         Refactoring _create_fleet()
         Addiing rows
-"""
 
 # Try it yourself, p.264
-"""
     13.1 Stars
-    
+    13.2 Better stars
+
+Making the fleet move, p.265
+     Moving the aliens right, p.265
 """
+
