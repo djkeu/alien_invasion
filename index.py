@@ -74,7 +74,9 @@ Making the fleet move, p.265
 # Try it yourself, p.268
     13.3 Raindrops
     
-
+Shooting aliens, p.268
+    Detecting bullet collisions, p.268
+    
 
 """
 
