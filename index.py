@@ -76,6 +76,8 @@ Making the fleet move, p.265
     
 Shooting aliens, p.268
     Detecting bullet collisions, p.268
+    Making bullets larger for testin, p.270
+    Repopulating the fleet
     
 
 """
