@@ -85,4 +85,8 @@ Shooting aliens, p.268
     13.5 Sideways Shooter Part 2
     \Dev\pcc\sideway_shooter
 
+Ending the game, p.272
+    Detecting alien and ship collisions, p.272
+    
+
 """
