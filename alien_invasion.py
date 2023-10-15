@@ -217,6 +217,7 @@ class AlienInvasion:
         else:
             self.stats.game_active = False
             self.aliens.empty()
+            pygame.mouse.set_visible(True)
             print("\n\tGame over!")
 
 
