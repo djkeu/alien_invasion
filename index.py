@@ -103,5 +103,8 @@ Adding the Play button, p.280
 # Try it yourself, p.285 
     14.1 Press P to Play, p.285
     # ToDo: 14.2 Target practice, p.285
+
+Leveling up, p.285
+    Modifying the speed settings, p.285
     
 """
