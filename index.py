@@ -79,7 +79,7 @@ Shooting aliens, p.268
     Making bullets larger for testin, p.270
     Repopulating the fleet, p.270
     Speeding up the bullets, p.271
-    
+    Refactoring _update_bullets(), p.271
     
 
 """
