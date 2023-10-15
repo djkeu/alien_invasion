@@ -196,9 +196,9 @@ class AlienInvasion:
             # Pause
             sleep(0.5)
         else:
+            self.stats.game_active = False
             self.aliens.empty()
             self.bullets.empty()
-            self.stats.game_active = False
             print("\n\tGame over!")
 
     def _update_screen(self):
