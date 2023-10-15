@@ -97,5 +97,6 @@ Ending the game, p.272
 """
 Adding the Play button, p.280
     Creating a Button class, p.280
-
+    Drawing the button to the screen, p.281
+    
 """
