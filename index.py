@@ -83,5 +83,6 @@ Shooting aliens, p.268
 
 # Try it yourself, p.272
     13.5 Sideways Shooter Part 2
+    \Dev\pcc\sideway_shooter
 
 """
