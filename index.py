@@ -92,3 +92,10 @@ Ending the game, p.272
     Aliens that reach the bottom of the screen, p.276
     Game over! p.276
 """
+
+# Chapter 14 Scoring, p.279
+"""
+Adding the Play button, p.280
+    Creating a Button class, p.280
+
+"""
