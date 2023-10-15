@@ -11,7 +11,7 @@ class Settings:
         # Ship settings
         self.ship_image = 'images/ship.png'
         self.ship_speed = 1.5
-        self.ship_limit = 3
+        self.ship_limit = 2  # => 3 ships
 
         # Bullet settings
         self.bullet_speed = 1.0

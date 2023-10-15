@@ -196,7 +196,10 @@ class AlienInvasion:
             # Pause
             sleep(0.5)
         else:
+            self.aliens.empty()
+            self.bullets.empty()
             self.stats.game_active = False
+            print("\n\tGame over!")
 
     def _update_screen(self):
         """Update images on screen, flip to new screen."""
