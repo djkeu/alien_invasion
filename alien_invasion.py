@@ -178,13 +178,14 @@ class AlienInvasion:
         for alien in self.aliens.sprites():
             if alien.rect.bottom >= screen_rect.bottom:
                 self._ship_hit()
+                break
 
     def _ship_hit(self):
         """Respond to the ship being hit by an alien."""
         if self.stats.ships_left > 0:
             # Decrement ships left
             self.stats.ships_left -= 1
-            print(f"Ships left: {self.stats.ships_left}")
+            print(f"Ships left: {self.stats.ships_left + 1}")
 
             # Get rid of remaining aliens and bullets
             self.aliens.empty()
