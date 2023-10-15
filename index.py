@@ -78,6 +78,7 @@ Shooting aliens, p.268
     Detecting bullet collisions, p.268
     Making bullets larger for testin, p.270
     Repopulating the fleet, p.270
+    Speeding up the bullets, p.271
     
     
 
