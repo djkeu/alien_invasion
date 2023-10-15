@@ -152,17 +152,11 @@ class AlienInvasion:
             self._create_fleet()
 
     def _update_aliens(self):
-        """
-        Check if the fleet is at an edge, then
-        update the positions of all aliens in the fleet.
-        """
+        """ Check if the fleet is at an edge."""
         self._check_fleet_edges()
         self.aliens.update()
 
-        self._check_destroyed_ship()
-
-    def _check_destroyed_ship(self):
-        """Look for events that destroy the ship."""
+        # Check for events that destroy the ship
         self._check_ship_alien_collision()
         self._check_aliens_bottom()
 
