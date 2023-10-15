@@ -32,6 +32,9 @@ class AlienInvasion:
         self.settings.screen_height = self.screen.get_rect().height
         """
         pygame.display.set_caption("Alien invasion")
+
+        # Create an instance to store game statistics
+        self.stats = GameStats(self)
         
         self.ship = Ship(self)
         self.bullets = pygame.sprite.Group()
