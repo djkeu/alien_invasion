@@ -73,6 +73,7 @@ Making the fleet move, p.265
 
 # Try it yourself, p.268
     13.3 Raindrops
+    # ToDo: 13.4 More rain
     
 Shooting aliens, p.268
     Detecting bullet collisions, p.268
@@ -81,12 +82,12 @@ Shooting aliens, p.268
     Speeding up the bullets, p.271
     Refactoring _update_bullets(), p.271
 
-# Try it yourself, p.272
+# ToDo: Try it yourself, p.272
     13.5 Sideways Shooter Part 2
     \Dev\pcc\sideway_shooter
 
 Ending the game, p.272
     Detecting alien and ship collisions, p.272
-    
+    Responding to alien and ship collisions, p.273
 
 """
