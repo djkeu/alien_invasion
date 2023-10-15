@@ -82,8 +82,8 @@ Shooting aliens, p.268
     Speeding up the bullets, p.271
     Refactoring _update_bullets(), p.271
 
-# ToDo: Try it yourself, p.272
-    13.5 Sideways Shooter Part 2
+# Try it yourself, p.272
+    # ToDo: 13.5 Sideways Shooter Part 2
     \Dev\pcc\sideway_shooter
 
 Ending the game, p.272
@@ -102,5 +102,6 @@ Adding the Play button, p.280
 
 # Try it yourself, p.285 
     14.1 Press P to Play, p.285
-
+    # ToDo: 14.2 Target practice, p.285
+    
 """
