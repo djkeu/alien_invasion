@@ -89,5 +89,6 @@ Shooting aliens, p.268
 Ending the game, p.272
     Detecting alien and ship collisions, p.272
     Responding to alien and ship collisions, p.273
+    Aliens that reach the bottom of the screen, p.276
     
 """
