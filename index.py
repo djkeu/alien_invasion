@@ -99,5 +99,8 @@ Adding the Play button, p.280
     Creating a Button class, p.280
     Drawing the button to the screen, p.281
     Resetting the game, p.283
-    
+
+# Try it yourself, p.285 
+    14.1 Press P to Play, p.285
+
 """
