@@ -80,7 +80,8 @@ Shooting aliens, p.268
     Repopulating the fleet, p.270
     Speeding up the bullets, p.271
     Refactoring _update_bullets(), p.271
-    
+
+# Try it yourself, p.272
+    13.5 Sideways Shooter Part 2
 
 """
-
