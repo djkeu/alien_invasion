@@ -50,6 +50,7 @@ Shooting bullets, p.246
         sideways_shooter.py
 """
 
+
 # Chapter 13 Aliens, p.255
 """
 Reviewing the project, p.256
@@ -93,6 +94,7 @@ Ending the game, p.272
     Game over! p.276
 """
 
+
 # Chapter 14 Scoring, p.279
 """
 Adding the Play button, p.280
@@ -114,6 +116,6 @@ Leveling up, p.285
 
 Scoring, p.288
     Displaying the score, p.288
-    
+
 """
 
