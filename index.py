@@ -113,6 +113,7 @@ Leveling up, p.285
     # ToDo: 14.4 Difficulty levels
 
 Scoring, p.288
+    Displaying the score, p.288
     
 """
 
