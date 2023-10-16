@@ -106,5 +106,13 @@ Adding the Play button, p.280
 
 Leveling up, p.285
     Modifying the speed settings, p.285
+    Resetting the speed, p.287
+
+# Try it yourself, p.288
+    # ToDo: 14.3 Challenging target practice
+    # ToDo: 14.4 Difficulty levels
+
+Scoring, p.288
     
 """
+
