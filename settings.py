@@ -2,7 +2,7 @@ class Settings:
     """Settings for Alien Invasion."""
 
     def __init__(self) -> None:
-        """Initialize game settings."""
+        """Initialize the game's static settings."""
         # Screen settings
         self.screen_width = 960
         self.screen_height = 640
