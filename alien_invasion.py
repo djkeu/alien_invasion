@@ -122,7 +122,6 @@ class AlienInvasion:
 
         self._create_fleet()
         self.ship.center_ship()
-        print(f"Ships left: {self.stats.ships_left + 1}")
 
     def _create_fleet(self):
         """Create the fleet of aliens."""
