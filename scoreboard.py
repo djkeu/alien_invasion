@@ -95,6 +95,7 @@ class Scoreboard:
 
     def save_high_score(self):
         """Save the high score at the end of the game."""
+        # FixMe: saved score should not be the latest score
         saved_score = str(self.saved_high_score)
         filename = "highscores.txt"
 
