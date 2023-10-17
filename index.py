@@ -116,6 +116,7 @@ Leveling up, p.285
 
 Scoring, p.288
     Displaying the score, p.288
-
+    Updating the score as aliens are shot down, p.291
+    
 """
 
