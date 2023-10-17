@@ -11,7 +11,7 @@ class Scoreboard:
         self.stats = ai_game.stats
 
         # Font setting for scoring information
-        self.text_color = (30, 30, 30)
+        self.text_color = (230, 230, 230)
         self.font = pygame.font.SysFont(None, 48)
 
         # Prepare the initial score image
@@ -30,4 +30,3 @@ class Scoreboard:
     def show_score(self):
         """Draw score to the screen."""
         self.screen.blit(self.score_image, self.score_rect)
-        
