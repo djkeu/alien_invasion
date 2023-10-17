@@ -125,6 +125,9 @@ Scoring, p.288
     High scores, p.294
     Displaying the level, p.296
     Displaying the number of ships, p.298
+
+# Try it yourself, p.301
+    14.5 All-time high score
     
 """
 
