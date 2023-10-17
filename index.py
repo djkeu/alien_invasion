@@ -124,6 +124,7 @@ Scoring, p.288
     Rounding the score, p.293
     High scores, p.294
     Displaying the level, p.296
+    Displaying the number of ships, p.298
     
 """
 
