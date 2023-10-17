@@ -10,7 +10,7 @@ class Settings:
 
         # Ship settings
         self.ship_image = 'images/ship.png'
-        self.ship_limit = 3  # Four ships
+        self.ship_limit = 2  # Three ships
 
         # Bullet settings
         self.bullet_width = 3
