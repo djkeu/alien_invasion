@@ -118,6 +118,7 @@ Scoring, p.288
     Displaying the score, p.288
     Making a scoreboard, p.289
     Updating the score as aliens are shot down, p.291
+    Resetting the score, p.291
     
 """
 
