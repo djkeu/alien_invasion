@@ -37,7 +37,16 @@ class Scoreboard:
 
     def prep_high_score(self):
         """Turn the high score into a rendered image."""
-        high_score = round(self.stats.high_score, -1)
+        filename = "highscores.txt"
+
+        with open(filename, 'r') as f:
+            saved_score = int(f.readline())
+        
+        if saved_score > self.stats.score:
+            high_score = saved_score
+        else:
+            high_score = round(self.stats.high_score, -1)
+
         high_score_str = "{:,}".format(high_score)
         self.high_score_image = self.font.render(high_score_str, True, self.text_color, self.settings.bg_color)
 
@@ -78,4 +87,11 @@ class Scoreboard:
         self.screen.blit(self.high_score_image, self.high_score_rect)
         self.screen.blit(self.level_image, self.level_rect)
         self.ships.draw(self.screen)
-        
+
+    def save_high_score(self):
+        """Save the high score at the end of the game."""
+        saved_score = str(self.saved_high_score)
+        filename = "highscores.txt"
+
+        with open(filename, 'w') as f:
+            f.write(saved_score)

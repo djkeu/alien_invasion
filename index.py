@@ -128,6 +128,9 @@ Scoring, p.288
 
 # Try it yourself, p.301
     14.5 All-time high score
+    # ToDo: Refactor prep_high_score() in scoreboard.py
+    # FixMe: Scoreboard object has no attr. 'save_high_score'
+    # Move saving and loading scores to scoreboard.py
     
 """
 

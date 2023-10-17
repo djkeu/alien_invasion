@@ -253,10 +253,6 @@ class AlienInvasion:
         with open(filename, 'w') as f:
             f.write(saved_score)
 
-    def _load_high_score(self):
-        """Load the highscore from a previous game."""
-
-
 
     def _update_screen(self):
         """Update images on screen, flip to new screen."""
