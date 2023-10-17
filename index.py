@@ -120,5 +120,7 @@ Scoring, p.288
     Updating the score as aliens are shot down, p.291
     Resetting the score, p.291
     Making sure to score all hits, p.292
+    Increasing point values, p.292
+    
 """
 
