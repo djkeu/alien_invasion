@@ -83,7 +83,7 @@ class Scoreboard:
 
     def load_high_score(self):
         self.high_score = 0
-        filename = "highscores.txt"
+        filename = "txt/highscores.txt"
 
         with open(filename, 'r') as f:
             score_to_load = int(f.readline())
@@ -97,7 +97,7 @@ class Scoreboard:
         """Save the high score at the end of the game."""
         # FixMe: saved score should not be the latest score
         score_to_save = str(self.saved_high_score)
-        filename = "highscores.txt"
+        filename = "txt/highscores.txt"
 
         with open(filename, 'w') as f:
             f.write(score_to_save)
