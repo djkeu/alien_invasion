@@ -66,6 +66,7 @@ class AlienInvasion:
         for event in pygame.event.get():
             # Quit the game
             if event.type == pygame.QUIT or event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                self._save_high_score()
                 sys.exit()
 
             # Move the ship
@@ -244,6 +245,15 @@ class AlienInvasion:
             self.aliens.empty()
             pygame.mouse.set_visible(True)
             print("\n\tGame over!\n")
+
+    def _save_high_score(self):
+        """Save the high score at the end of the game."""
+        saved_score = self.stats.high_score
+        filename = "highscores.json"
+
+        with open(filename, 'w') as f:
+            f.write(saved_score)
+
 
     def _update_screen(self):
         """Update images on screen, flip to new screen."""
