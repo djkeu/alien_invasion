@@ -122,6 +122,7 @@ Scoring, p.288
     Making sure to score all hits, p.292
     Increasing point values, p.292
     Rounding the score, p.293
+    High scores, p.294
     
 """
 
