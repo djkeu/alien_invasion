@@ -3,7 +3,6 @@ print("\n\tProject 1: Alien Invasion\n")
 
 import sys
 from time import sleep
-import json
 import pygame
 
 from settings import Settings
@@ -249,10 +248,14 @@ class AlienInvasion:
     def _save_high_score(self):
         """Save the high score at the end of the game."""
         saved_score = str(self.sb.saved_high_score)
-        filename = "highscores.json"
+        filename = "highscores.txt"
 
         with open(filename, 'w') as f:
             f.write(saved_score)
+
+    def _load_high_score(self):
+        """Load the highscore from a previous game."""
+
 
 
     def _update_screen(self):
