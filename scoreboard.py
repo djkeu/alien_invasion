@@ -81,14 +81,6 @@ class Scoreboard:
         self.screen.blit(self.level_image, self.level_rect)
         self.ships.draw(self.screen)
 
-    def save_high_score(self):
-        """Save the high score at the end of the game."""
-        saved_score = str(self.saved_high_score)
-        filename = "highscores.txt"
-
-        with open(filename, 'w') as f:
-            f.write(saved_score)
-
     def load_high_score(self):
         self.high_score = 0
         filename = "highscores.txt"
@@ -100,5 +92,13 @@ class Scoreboard:
             self.high_score = score_to_load
         else:
             self.high_score = round(self.stats.high_score, -1)
+
+    def save_high_score(self):
+        """Save the high score at the end of the game."""
+        saved_score = str(self.saved_high_score)
+        filename = "highscores.txt"
+
+        with open(filename, 'w') as f:
+            f.write(saved_score)
 
         
