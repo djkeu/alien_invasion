@@ -3,7 +3,7 @@ print("\n\tProject 1: Alien Invasion\n")
 
 import sys
 from time import sleep
-
+import json
 import pygame
 
 from settings import Settings
