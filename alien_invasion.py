@@ -248,7 +248,7 @@ class AlienInvasion:
 
     def _save_high_score(self):
         """Save the high score at the end of the game."""
-        saved_score = self.stats.high_score
+        saved_score = str(self.sb.saved_high_score)
         filename = "highscores.json"
 
         with open(filename, 'w') as f:
