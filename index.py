@@ -123,6 +123,7 @@ Scoring, p.288
     Increasing point values, p.292
     Rounding the score, p.293
     High scores, p.294
+    Displaying the level, p.296
     
 """
 
