@@ -121,6 +121,7 @@ Scoring, p.288
     Resetting the score, p.291
     Making sure to score all hits, p.292
     Increasing point values, p.292
+    Rounding the score, p.293
     
 """
 
