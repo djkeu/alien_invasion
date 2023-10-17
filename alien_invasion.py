@@ -119,6 +119,8 @@ class AlienInvasion:
 
         self._create_fleet()
         self.ship.center_ship()
+        print(f"Ships left: {self.stats.ships_left + 1}")
+
 
     def _create_fleet(self):
         """Create the fleet of aliens."""
@@ -229,6 +231,7 @@ class AlienInvasion:
             self.stats.game_active = False
             self.aliens.empty()
             pygame.mouse.set_visible(True)
+            print("Ships left: 0")
             print("\n\tGame over!")
 
 
