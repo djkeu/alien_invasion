@@ -243,8 +243,7 @@ class AlienInvasion:
             self.stats.game_active = False
             self.aliens.empty()
             pygame.mouse.set_visible(True)
-            print("\n\tGame over!")
-
+            print("\n\tGame over!\n")
 
     def _update_screen(self):
         """Update images on screen, flip to new screen."""
