@@ -229,7 +229,6 @@ class AlienInvasion:
             # Decrement ships left
             self.stats.ships_left -= 1
             self.sb.prep_ships()
-            print(f"Ships left: {self.stats.ships_left + 1}")
 
             # Get rid of remaining aliens and bullets
             self.aliens.empty()
@@ -245,7 +244,6 @@ class AlienInvasion:
             self.stats.game_active = False
             self.aliens.empty()
             pygame.mouse.set_visible(True)
-            print("Ships left: 0")
             print("\n\tGame over!")
 
 
