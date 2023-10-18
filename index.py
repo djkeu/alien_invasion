@@ -130,9 +130,6 @@ Scoring, p.288
     14.5 All-time high score
     14.6 Refactoring 
     
-    # ToDo: 
-    prep_high_score() in scoreboard.py
-
     # ToDo:     
     _check_bullet_alien_collisions()
         - Create start_new_level()
