@@ -13,6 +13,7 @@ class Scoreboard:
         self.screen_rect = self.screen.get_rect()
         self.settings = ai_game.settings
         self.stats = ai_game.stats
+        self.high_score_file = "txt/highscores.txt"
 
         # Font setting for scoring information
         self.text_color = (230, 230, 230)
@@ -20,6 +21,7 @@ class Scoreboard:
 
         # Prepare initial score images
         self.prep_images()
+
 
     def prep_images(self):
         """Prepare all initial score images."""
@@ -41,7 +43,7 @@ class Scoreboard:
 
     def load_high_score(self):
         self.high_score = 0
-        filename = "txt/highscores.txt"
+        filename = self.high_score_file
 
         try:
             with open(filename, 'r') as f:
@@ -78,7 +80,7 @@ class Scoreboard:
     def save_high_score(self):
         """Save the high score at the end of the game."""
         score_to_save = str(self.high_score)
-        filename = "txt/highscores.txt"
+        filename = self.high_score_file
 
         with open(filename, 'w') as f:
             f.write(score_to_save)
