@@ -52,7 +52,6 @@ class Scoreboard:
         self.saved_high_score = 0
         if self.stats.score > self.stats.high_score:
             self.stats.high_score = self.stats.score
-            self.saved_high_score = self.stats.high_score
             self.prep_high_score()
 
     def prep_level(self):
