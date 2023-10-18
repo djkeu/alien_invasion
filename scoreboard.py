@@ -97,7 +97,7 @@ class Scoreboard:
             ship.rect.y = 10
             self.ships.add(ship)
 
-    def show_score(self):
+    def show_scores(self):
         """Draw scores, levels and ships to the screen."""
         self.screen.blit(self.score_image, self.score_rect)
         self.screen.blit(self.high_score_image, self.high_score_rect)
