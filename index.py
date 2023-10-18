@@ -128,7 +128,21 @@ Scoring, p.288
 
 # Try it yourself, p.301
     14.5 All-time high score
-    # ToDo: Refactor prep_high_score() in scoreboard.py
+    14.6 Refactoring 
     
+    # ToDo: 
+    prep_high_score() in scoreboard.py
+
+    # ToDo:     
+    _check_bullet_alien_collisions()
+        - Create start_new_level()
+    
+    # ToDo: 
+    Scoreboard __init__()
+        - Create prep_images()
+        - Simplify _start_game() with prep_images()
+    
+    14.7 Expanding the game
+    14.8 Sideways Shooter, final version
 """
 
