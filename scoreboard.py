@@ -35,6 +35,21 @@ class Scoreboard:
         self.score_rect.right = self.screen_rect.right - 20
         self.score_rect.top = 20
 
+    def load_high_score(self):
+        self.high_score = 0
+        filename = "txt/highscores.txt"
+
+        try:
+            with open(filename, 'r') as f:
+                score_to_load = int(f.readline())
+        except FileNotFoundError:
+            score_to_load = 0
+        
+        if score_to_load > self.stats.high_score:
+            self.high_score = score_to_load
+        else:
+            self.high_score = round(self.stats.high_score, -1)
+
     def prep_high_score(self):
         """Turn the high score into a rendered image."""
         self.load_high_score()
@@ -79,21 +94,6 @@ class Scoreboard:
         self.screen.blit(self.high_score_image, self.high_score_rect)
         self.screen.blit(self.level_image, self.level_rect)
         self.ships.draw(self.screen)
-
-    def load_high_score(self):
-        self.high_score = 0
-        filename = "txt/highscores.txt"
-
-        try:
-            with open(filename, 'r') as f:
-                score_to_load = int(f.readline())
-        except FileNotFoundError:
-            score_to_load = 0
-        
-        if score_to_load > self.stats.high_score:
-            self.high_score = score_to_load
-        else:
-            self.high_score = round(self.stats.high_score, -1)
 
     def save_high_score(self):
         """Save the high score at the end of the game."""
