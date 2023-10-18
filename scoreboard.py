@@ -48,6 +48,8 @@ class Scoreboard:
                 score_to_load = int(f.readline())
         except FileNotFoundError:
             score_to_load = 0
+        except ValueError:
+            score_to_load = 0
         
         if score_to_load > self.stats.high_score:
             self.high_score = score_to_load
