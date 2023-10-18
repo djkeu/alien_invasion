@@ -85,8 +85,11 @@ class Scoreboard:
         self.high_score = 0
         filename = "txt/highscores.txt"
 
-        with open(filename, 'r') as f:
-            score_to_load = int(f.readline())
+        try:
+            with open(filename, 'r') as f:
+                score_to_load = int(f.readline())
+        except FileNotFoundError:
+            score_to_load = 0
         
         if score_to_load > self.stats.score:
             self.high_score = score_to_load
