@@ -91,7 +91,7 @@ class Scoreboard:
         except FileNotFoundError:
             score_to_load = 0
         
-        if score_to_load > self.stats.score:
+        if score_to_load > self.stats.high_score:
             self.high_score = score_to_load
         else:
             self.high_score = round(self.stats.high_score, -1)
@@ -99,7 +99,7 @@ class Scoreboard:
     def save_high_score(self):
         """Save the high score at the end of the game."""
         # FixMe: saved score should not be the latest score
-        score_to_save = str(self.saved_high_score)
+        score_to_save = str(self.high_score)
         filename = "txt/highscores.txt"
 
         with open(filename, 'w') as f:
