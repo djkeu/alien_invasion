@@ -129,11 +129,6 @@ Scoring, p.288
 # Try it yourself, p.301
     14.5 All-time high score
     14.6 Refactoring 
-    
-    # ToDo:     
-    _check_bullet_alien_collisions()
-        - Create start_new_level()
-    
     14.7 Expanding the game
     14.8 Sideways Shooter, final version
 """
