@@ -69,6 +69,15 @@ class Scoreboard:
             self.stats.high_score = self.stats.score
             self.prep_high_score()
 
+    def save_high_score(self):
+        """Save the high score at the end of the game."""
+        score_to_save = str(self.high_score)
+        filename = "txt/highscores.txt"
+
+        with open(filename, 'w') as f:
+            f.write(score_to_save)
+
+
     def prep_level(self):
         """Turn the level into a rendered image."""
         level_str = str(self.stats.level)
@@ -94,13 +103,3 @@ class Scoreboard:
         self.screen.blit(self.high_score_image, self.high_score_rect)
         self.screen.blit(self.level_image, self.level_rect)
         self.ships.draw(self.screen)
-
-    def save_high_score(self):
-        """Save the high score at the end of the game."""
-        score_to_save = str(self.high_score)
-        filename = "txt/highscores.txt"
-
-        with open(filename, 'w') as f:
-            f.write(score_to_save)
-
-        
