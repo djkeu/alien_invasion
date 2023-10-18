@@ -111,7 +111,7 @@ class AlienInvasion:
         # Fire bullets
         elif event.key == pygame.K_SPACE:
             self._fire_bullet()
-        elif event.key == pygame.K_RETURN:
+        elif event.key == pygame.K_RETURN and not self.stats.game_active:
             self._start_game()
 
     def _check_keyup_events(self, event):
