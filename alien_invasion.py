@@ -67,7 +67,7 @@ class AlienInvasion:
         sys.exit()
 
     def _start_game(self):
-        """Actions to take when the game is started."""
+        """Actions to take when Play is started."""
         # Hide the mouse cursor
         pygame.mouse.set_visible(False)
 
