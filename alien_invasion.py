@@ -60,40 +60,18 @@ class AlienInvasion:
 
             self._update_screen()
 
-
-    def _quit_game(self):
-        """Actions to take on quiting the game."""
-        self.sb.save_high_score()
-        sys.exit()
-
-    def _start_game(self):
-        """Actions to take when the game is started."""
-        # Hide the mouse cursor
-        pygame.mouse.set_visible(False)
-
-        self.stats.reset_stats()
-        self.stats.game_active = True
-        self.sb.prep_score()
-        self.sb.prep_level()
-        self.sb.prep_ships()
-
-        self.aliens.empty()
-        self.bullets.empty()
-
-        self._create_fleet()
-        self.ship.center_ship()
-
-
     def _check_events(self):
         """Listen to mouse and keyboard input."""
         for event in pygame.event.get():
             # Quit the game
             if event.type == pygame.QUIT or event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                self._quit_game()
+                self._save_high_score()
+                sys.exit()
 
-            # Movement of the ship
+            # Move the ship
             elif event.type == pygame.KEYDOWN:
                 self._check_keydown_events(event)
+            # Stop moving the ship
             elif event.type == pygame.KEYUP:
                 self._check_keyup_events(event)
 
@@ -128,6 +106,22 @@ class AlienInvasion:
             self.settings.initialize_dynamic_settings()
             self._start_game()
 
+    def _start_game(self):
+        """Let the user start the game."""
+        # Hide the mouse cursor
+        pygame.mouse.set_visible(False)
+
+        self.stats.reset_stats()
+        self.stats.game_active = True
+        self.sb.prep_score()
+        self.sb.prep_level()
+        self.sb.prep_ships()
+
+        self.aliens.empty()
+        self.bullets.empty()
+
+        self._create_fleet()
+        self.ship.center_ship()
 
     def _create_fleet(self):
         """Create the fleet of aliens."""
@@ -170,7 +164,6 @@ class AlienInvasion:
             alien.rect.y += self.settings.fleet_drop_speed
         self.settings.fleet_direction *= -1
 
-
     def _fire_bullet(self):
         """Create new bullet and add it to the bullets group."""
         if len(self.bullets) < self.settings.bullets_allowed:
@@ -206,7 +199,6 @@ class AlienInvasion:
             # Increase level
             self.stats.level += 1
             self.sb.prep_level()
-
 
     def _update_aliens(self):
         """ Check if the fleet is at an edge."""
@@ -252,6 +244,14 @@ class AlienInvasion:
             self.aliens.empty()
             pygame.mouse.set_visible(True)
             print("\n\tGame over!\n")
+
+    def _save_high_score(self):
+        """Save the high score at the end of the game."""
+        saved_score = str(self.sb.saved_high_score)
+        filename = "highscores.txt"
+
+        with open(filename, 'w') as f:
+            f.write(saved_score)
 
 
     def _update_screen(self):
