@@ -199,6 +199,7 @@ class AlienInvasion:
             self._start_new_level()
 
     def _start_new_level(self):
+        """Actions to take when aliens are destroyed."""
         # Destroy exisiting bullets, create new fleet
         self.bullets.empty()
         self._create_fleet()
