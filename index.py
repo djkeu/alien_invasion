@@ -134,11 +134,6 @@ Scoring, p.288
     _check_bullet_alien_collisions()
         - Create start_new_level()
     
-    # ToDo: 
-    Scoreboard __init__()
-        - Create prep_images()
-        - Simplify _start_game() with prep_images()
-    
     14.7 Expanding the game
     14.8 Sideways Shooter, final version
 """
